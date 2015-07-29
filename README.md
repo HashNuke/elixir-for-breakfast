@@ -4,12 +4,12 @@
 
 Install Erlang 18.0 & Elixir 1.0.5 by any of the following means:
 
-#### Pre-compiled packages
+##### Pre-compiled packages
 
 Pre-compiled packages from Erlang Solutions - [Erlang](https://www.erlang-solutions.com/downloads/download-erlang-otp), [Elixir](https://www.erlang-solutions.com/downloads/download-elixir)
 
 
-#### Using version managers & other means
+##### Using version managers & other means
 
 > If you are using any of the below methods, install the dependencies first
 > * **OS X**: Install these via homebrew `automake autoconf openssl libyaml readline ncurses libxslt libtool unixodbc`
