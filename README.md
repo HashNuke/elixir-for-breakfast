@@ -26,4 +26,6 @@ Pre-compiled packages from Erlang Solutions - [Erlang](https://www.erlang-soluti
   brew install erlang elixir
   ```
 
-**Please avoid using virtual machines for the class. We'll be sending messages to each other's computers and not using VMs will avoid complexity when helping out.**
+##### Using VM
+
+TODO Add Vagrantfile
