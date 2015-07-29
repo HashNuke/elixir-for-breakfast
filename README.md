@@ -2,7 +2,9 @@
 
 ## Requirements
 
-Install Erlang 18.0 & Elixir 1.0.5 by any of the following means:
+Install Erlang 18.0 & Elixir 1.0.5 by any of the following means.
+
+Verify your installation by checking if running the `iex` command opens a console. You can quit the console by running `ctrl+c`, enter `a` and then press the `enter` key.
 
 ##### Pre-compiled packages
 
@@ -21,10 +23,7 @@ Pre-compiled packages from Erlang Solutions - [Erlang](https://www.erlang-soluti
 * [kerl](https://github.com/yrashk/kerl) / [erlenv](https://github.com/talentdeficit/erlenv) / [evm](https://github.com/robisonsantos/evm) version manager for Erlang
   [kiex](https://github.com/taylor/kiex) / [exenv](https://github.com/mururu/exenv) version manager for Elixir
 
-* Homebrew for OS X (last resort, as this as it still has Erlang 17.5)
-  ```
-  brew install erlang elixir
-  ```
+* Homebrew for OS X (last resort, as this as it still has Erlang 17.5): `brew install erlang elixir`
 
 ##### Using VM
 
