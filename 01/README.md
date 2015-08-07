@@ -131,6 +131,9 @@ iex> GenServer.call s, :hello
 
 #### A little useful GenServer
 
+* difference between call & cast
+* using casts
+
 ```
 TODO
 ```
