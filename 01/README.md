@@ -139,7 +139,9 @@ iex> GenServer.call s, :hello
 
 ```
 $ iex stack_server.ex
-
+iex> StackServer.start_link
+iex> GenServer.call StackServer, :state
+...
 ```
 
 #### Role playing server
