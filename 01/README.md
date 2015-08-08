@@ -166,7 +166,7 @@ iex> Node.list |> GenServer.multi_call :bank, :balance
 
 ## End notes
 
-GenServer is like a push-button. It's tiny and it's useful. But if combined with more abstractions, it becomes more powerful & useful.
+GenServer is like a push-button. Tiny but useful. Combine with more OTP abstractions and the usefulness is amplified.
 
 ----
 
