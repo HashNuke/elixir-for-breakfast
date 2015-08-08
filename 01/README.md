@@ -108,6 +108,9 @@ iex> Greeting.Native.location(:bengaluru)
 "yen guru samachara"
 ```
 
+#### Piped functions
+
+
 
 ## GenServer
 
@@ -129,13 +132,31 @@ iex> GenServer.call s, :hello
 * Messages are queued. GenServers have message boxes.
 * GenServers will crash if you pass messages they cannot handle.
 
-#### A little useful GenServer
+#### A little useful server
 
 * difference between call & cast
 * using casts
 
 ```
-TODO
+$ iex stack_server.ex
+
+```
+
+#### Role playing server
+
+```
+# from one computer/terminal
+$ iex --name "akshay@192.168.2.8" --cookie foobar bank_server.ex
+iex> BankServer.start_link
+
+# from another computer/terminal
+# cookie value must be the same
+$ iex --name "kumar@192.168.2.8" --cookie foobar bank_server.ex
+iex> Node.connect :"akshay@192.168.2.8"
+true
+iex> Node.list
+[:"akshay@192.168.2.8"]
+iex> Node.list |> GenServer.multi_call :bank, :balance
 ```
 
 ## End notes
@@ -144,4 +165,5 @@ GenServer is like a push-button. It's tiny and it's useful. But if combined with
 
 ----
 
+* [Supervisors](http://learnyousomeerlang.com/supervisors) chapter in LearnYouSomeErlang
 * [History of the Button](https://www.youtube.com/watch?v=zdwUbhm-8Mw) - talk by Bill DeRouchey about the push button. ([slides](http://www.slideshare.net/billder/history-of-the-button-at-sxsw))
