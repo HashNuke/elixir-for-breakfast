@@ -164,6 +164,10 @@ iex> Node.list
 iex> Node.list |> GenServer.multi_call :bank, :balance
 ```
 
+#### Turning to `mix`
+
+--
+
 ## End notes
 
 GenServer is like a push-button. It's tiny and it's useful. But if combined with more abstractions, it becomes more powerful & useful.
@@ -171,4 +175,4 @@ GenServer is like a push-button. It's tiny and it's useful. But if combined with
 ----
 
 * [Supervisors](http://learnyousomeerlang.com/supervisors) chapter in LearnYouSomeErlang
-* [History of the Button](https://www.youtube.com/watch?v=zdwUbhm-8Mw) - talk by Bill DeRouchey about the push button. ([slides](http://www.slideshare.net/billder/history-of-the-button-at-sxsw))
+* [History of the Button](https://www.youtube.com/watch?v=zdwUbhm-8Mw) - talk by Bill DeRouchey about the push button ([slides](http://www.slideshare.net/billder/history-of-the-button-at-sxsw))
