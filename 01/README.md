@@ -78,7 +78,7 @@ iex> "kumar" = "#{name}"
 
 ## Pipes
 
---
+-- in session --
 
 ## Pattern matching
 
@@ -110,10 +110,6 @@ iex> Greeting.Native.location(:chennai)
 iex> Greeting.Native.location(:bengaluru)
 "yen guru samachara"
 ```
-
-#### Piped functions
-
-
 
 ## GenServer
 
@@ -166,7 +162,7 @@ iex> Node.list |> GenServer.multi_call :bank, :balance
 
 #### Turning to `mix`
 
---
+-- in session --
 
 ## End notes
 
