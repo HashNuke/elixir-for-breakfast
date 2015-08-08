@@ -76,6 +76,9 @@ iex> "kumar" = "#{name}"
 * Both forms support interpolation
 * Can convert from one form to another with interpolation
 
+## Pipes
+
+--
 
 ## Pattern matching
 
