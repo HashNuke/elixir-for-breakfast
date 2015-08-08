@@ -176,4 +176,6 @@ GenServer is like a push-button. It's tiny and it's useful. But if combined with
 
 * [Elixir cheatsheet](https://media.pragprog.com/titles/elixir/ElixirCheat.pdf)
 * [Supervisors](http://learnyousomeerlang.com/supervisors) chapter in LearnYouSomeErlang
+* [Elixir and the internet of things](https://www.youtube.com/watch?v=a-OCorBXX7M) - talk by Doug Roher. Simple explanations about restart strategies and other nice things. Blog posts: [part-1](http://www.neo.com/2014/01/14/elixir-and-the-internet-of-things-handling-a-stampede), [part-2](http://www.neo.com/2014/01/30/elixir-and-the-internet-of-things-part-2-whats-in-a-process), [part-3](http://www.neo.com/2014/03/06/elixir-and-the-internet-of-things-part-3-rabbits-rabbits-everywhere)
+* [Ruby + Elixir Polyglotting FTW](http://confreaks.tv/videos/rdrc2014-ruby-elixir-polyglotting-ftw) - Talk with nice visualization of process spawning
 * [History of the Button](https://www.youtube.com/watch?v=zdwUbhm-8Mw) - talk by Bill DeRouchey about the push button ([slides](http://www.slideshare.net/billder/history-of-the-button-at-sxsw))
