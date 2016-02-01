@@ -12,9 +12,11 @@ defmodule AccountServer do
     {:reply, new_state, new_state}
   end
 
+  def handle_call(:balance, _from, state) do
+    {:reply, state, state}
+  end
 
-  def code_change(_old_vsn, state, _extra) do
-    IO.inspect "changing code"
-    {:ok, state}
+  def handle_cast(:reset, state) do
+    {:noreply, 0}
   end
 end

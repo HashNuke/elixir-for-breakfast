@@ -11,4 +11,5 @@ defmodule AccountServer do
     new_state = state - amount
     {:reply, new_state, new_state}
   end
+
 end
